@@ -8,7 +8,7 @@ const Timer = () => {
 
   useEffect(() => {
     const interval = setInterval(time, 1000);
-    // 破棄された場合
+    // return => Timer Componentが破棄された場合実行される
     return () => {
       clearInterval(interval);
       console.log("Cleared!!");
