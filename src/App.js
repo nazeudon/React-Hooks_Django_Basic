@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Basic1 />
+        <Basic1 name="Hooks" />
+        <Basic1 name="React" />
       </header>
     </div>
   );
