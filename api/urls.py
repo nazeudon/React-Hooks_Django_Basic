@@ -5,7 +5,7 @@ from api.views import TaskViewSet, UserViewSet, ManageUserView
 
 
 router = routers.DefaultRouter()
-router.register('tasls', TaskViewSet)
+router.register('tasks', TaskViewSet)
 router.register('users', UserViewSet)
 
 urlpatterns = [
